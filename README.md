@@ -7,7 +7,7 @@ Objective: Find, analyze, recreate, and document three vulnurabilities affecting
 ## Pentesting Report
 1. USer vulnurability
 
-- Summary:Checked logging in different username.
+- Summary: Checked logging in different username.
 
    - Vulnerability types: User enumeration.
    - Tested in version: 4.2 
@@ -18,7 +18,7 @@ GIF Walkthrough:
 
 2. Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
 
-- Summary: An authenticated user can perform a XSS attack by adding JavaScript to a Youtube URL in an embed tag when editing the content of a post. 
+- Summary: User can post maliciously crafted embedded link which can  cause execute script on viewers browser. 
 
     - Vulnerability types: XXS
     - Tested in version: 4.2
@@ -29,7 +29,7 @@ GIF Walkthrough:
 
 3. Authenticated Stored Cross-Site Scripting (XSS)
 
-- Summary: An authenticated user can make an attack by inserting HTML that contains malicious JavaScript into a WordPress page or post.
+- Summary: Malicious HTML code with XSS payload can be posted by user enabling to perform XSS attack on user's browser.
 
     - Vulnerability types: XXS
     - Tested in version: 4.2
