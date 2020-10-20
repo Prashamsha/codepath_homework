@@ -5,9 +5,9 @@ Time spent- 24 hrs
 Objective: Find, analyze, recreate, and document three vulnurabilities affecting an older versions of WordPress.
 
 ## Pentesting Report
-1. USer vulnurability
+1. USer enumeration Vulnurability
 
-- Summary: Checked logging in different username.
+- Summary: Checked logging in different username.Different error message is shown for existing & not existing user, enabling attacker to know username.
 
    - Vulnerability types: User enumeration.
    - Tested in version: 4.2 
